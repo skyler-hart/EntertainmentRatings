@@ -1,31 +1,31 @@
-Type,Title,Genre,Sky_Rating,Tay_Rating,Sky_Favorite,Tay_Favorite,Notes
-Movie,The Shawshank Redemption,Drama,9.5,9.0,TRUE,TRUE,Classic redemption story
-Movie,Inception,Sci-Fi,9.0,8.5,TRUE,FALSE,Mind-bending thriller
-Movie,The Dark Knight,Action,8.5,9.0,FALSE,TRUE,Great superhero film
-Movie,Pulp Fiction,Crime,8.0,7.5,FALSE,FALSE,Tarantino classic
-Movie,Forrest Gump,Drama,9.0,9.5,FALSE,TRUE,Heartwarming story
-Movie,The Matrix,Sci-Fi,9.5,8.0,TRUE,FALSE,Revolutionary effects
-Movie,Interstellar,Sci-Fi,9.0,8.0,FALSE,FALSE,Space exploration epic
-Movie,The Godfather,Crime,8.5,8.5,FALSE,FALSE,Mafia masterpiece
-Movie,Spirited Away,Animation,8.0,9.0,FALSE,TRUE,Beautiful animation
-Movie,Parasite,Thriller,8.5,9.0,FALSE,FALSE,Social commentary
-TV Show,Breaking Bad,Drama,9.5,9.0,TRUE,TRUE,Intense character development
-TV Show,Game of Thrones,Fantasy,8.5,9.5,FALSE,TRUE,Epic fantasy series
-TV Show,Stranger Things,Sci-Fi,9.0,9.0,TRUE,TRUE,80s nostalgia
-TV Show,The Office,Comedy,9.0,8.5,TRUE,FALSE,Hilarious workplace comedy
-TV Show,Friends,Comedy,8.0,9.0,FALSE,TRUE,Classic sitcom
-TV Show,Black Mirror,Sci-Fi,8.5,8.0,FALSE,FALSE,Thought-provoking anthology
-TV Show,The Crown,Drama,7.5,8.5,FALSE,FALSE,Historical drama
-TV Show,Sherlock,Mystery,9.0,8.5,TRUE,FALSE,Modern detective series
-TV Show,The Mandalorian,Sci-Fi,8.5,9.0,FALSE,TRUE,Star Wars adventure
-TV Show,Westworld,Sci-Fi,8.0,7.5,FALSE,FALSE,Complex AI narrative
-Music Artist,The Beatles,Rock,9.5,9.0,TRUE,TRUE,Legendary band
-Music Artist,Queen,Rock,9.0,9.5,FALSE,TRUE,Iconic performances
-Music Artist,Taylor Swift,Pop,7.5,9.5,FALSE,TRUE,Modern pop icon
-Music Artist,Billie Eilish,Pop,8.5,9.0,TRUE,TRUE,Unique sound
-Music Artist,Radiohead,Alternative,9.0,8.0,TRUE,FALSE,Experimental rock
-Music Artist,Daft Punk,Electronic,8.5,8.5,FALSE,FALSE,Electronic pioneers
-Music Artist,Kendrick Lamar,Hip-Hop,8.0,9.0,FALSE,TRUE,Lyrical genius
-Music Artist,Pink Floyd,Rock,9.5,8.5,TRUE,FALSE,Progressive rock legends
-Music Artist,Adele,Pop,8.5,9.0,FALSE,TRUE,Powerful vocals
-Music Artist,Arctic Monkeys,Indie,8.0,8.0,FALSE,FALSE,British indie rock
+Type,Title,Genre,Sky_Rating,Tay_Rating,Sky_Favorite,Tay_Favorite,Landen_Rating,Landen_Favorite,Hanna_Rating,Hanna_Favorite,Release_Year,Notes
+Movie,The Shawshank Redemption,Drama,9.5,9.0,TRUE,TRUE,,,,,1994,Classic redemption story
+Movie,Inception,Sci-Fi,9.0,8.5,TRUE,FALSE,,,,,2010,Mind-bending thriller
+Movie,The Dark Knight,Action,8.5,9.0,FALSE,TRUE,,,,,2008,Great superhero film
+Movie,Pulp Fiction,Crime,8.0,7.5,FALSE,FALSE,,,,,1994,Tarantino classic
+Movie,Forrest Gump,Drama,9.0,9.5,FALSE,TRUE,,,,,1994,Heartwarming story
+Movie,The Matrix,Sci-Fi,9.5,8.0,TRUE,FALSE,,,,,1999,Revolutionary effects
+Movie,Interstellar,Sci-Fi,9.0,8.0,FALSE,FALSE,,,,,2014,Space exploration epic
+Movie,The Godfather,Crime,8.5,8.5,FALSE,FALSE,,,,,1972,Mafia masterpiece
+Movie,Spirited Away,Animation,8.0,9.0,FALSE,TRUE,,,,,2001,Beautiful animation
+Movie,Parasite,Thriller,8.5,9.0,FALSE,FALSE,,,,,2019,Social commentary
+TV Show,Breaking Bad,Drama,9.5,9.0,TRUE,TRUE,,,,,2008,Intense character development
+TV Show,Game of Thrones,Fantasy,8.5,9.5,FALSE,TRUE,,,,,2011,Epic fantasy series
+TV Show,Stranger Things,Sci-Fi,9.0,9.0,TRUE,TRUE,,,,,2016,80s nostalgia
+TV Show,The Office,Comedy,9.0,8.5,TRUE,FALSE,,,,,2005,Hilarious workplace comedy
+TV Show,Friends,Comedy,8.0,9.0,FALSE,TRUE,,,,,1994,Classic sitcom
+TV Show,Black Mirror,Sci-Fi,8.5,8.0,FALSE,FALSE,,,,,2011,Thought-provoking anthology
+TV Show,The Crown,Drama,7.5,8.5,FALSE,FALSE,,,,,2016,Historical drama
+TV Show,Sherlock,Mystery,9.0,8.5,TRUE,FALSE,,,,,2010,Modern detective series
+TV Show,The Mandalorian,Sci-Fi,8.5,9.0,FALSE,TRUE,,,,,2019,Star Wars adventure
+TV Show,Westworld,Sci-Fi,8.0,7.5,FALSE,FALSE,,,,,2016,Complex AI narrative
+Music Artist,The Beatles,Rock,9.5,9.0,TRUE,TRUE,,,,,1960,Legendary band
+Music Artist,Queen,Rock,9.0,9.5,FALSE,TRUE,,,,,1970,Iconic performances
+Music Artist,Taylor Swift,Pop,7.5,9.5,FALSE,TRUE,,,,,2006,Modern pop icon
+Music Artist,Billie Eilish,Pop,8.5,9.0,TRUE,TRUE,,,,,2015,Unique sound
+Music Artist,Radiohead,Alternative,9.0,8.0,TRUE,FALSE,,,,,1985,Experimental rock
+Music Artist,Daft Punk,Electronic,8.5,8.5,FALSE,FALSE,,,,,1993,Electronic pioneers
+Music Artist,Kendrick Lamar,Hip-Hop,8.0,9.0,FALSE,TRUE,,,,,2009,Lyrical genius
+Music Artist,Pink Floyd,Rock,9.5,8.5,TRUE,FALSE,,,,,1965,Progressive rock legends
+Music Artist,Adele,Pop,8.5,9.0,FALSE,TRUE,,,,,2008,Powerful vocals
+Music Artist,Arctic Monkeys,Indie,8.0,8.0,FALSE,FALSE,,,,,2002,British indie rock

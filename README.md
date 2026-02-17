@@ -31,8 +31,9 @@ The spreadsheet contains the following columns:
 2. **Ask for recommendations**: Use prompts like:
    - "Based on Sky's ratings and favorites, recommend 5 movies they might enjoy"
    - "What TV shows would Tay like based on their preferences?"
-   - "Suggest music artists similar to both Sky and Tay's favorites"
-   - "Find movies that both Sky and Tay would enjoy watching together (rated 8+ by both)"
+   - "Suggest music artists similar to Landen's favorites"
+   - "Find movies that all four people would enjoy watching together (rated 8+ by everyone)"
+   - "What movies from the 2010s would Hanna enjoy based on their rating patterns?"
 
 ### Understanding the Weighting System
 
@@ -48,8 +49,8 @@ The spreadsheet contains the following columns:
 Add new rows to `entertainment_ratings.csv` following this format:
 
 ```csv
-Type,Title,Genre,Sky_Rating,Tay_Rating,Sky_Favorite,Tay_Favorite,Notes
-Movie,Your Movie,Action,8.5,9.0,FALSE,TRUE,Your notes here
+Type,Title,Genre,Sky_Rating,Tay_Rating,Sky_Favorite,Tay_Favorite,Landen_Rating,Landen_Favorite,Hanna_Rating,Hanna_Favorite,Release_Year,Notes
+Movie,Your Movie,Action,8.5,9.0,FALSE,TRUE,8.0,FALSE,9.5,TRUE,2023,Your notes here
 ```
 
 ### Using Excel
@@ -100,11 +101,11 @@ To track ratings for additional people, add new columns:
 ### Adding More Fields
 
 Consider adding:
-- Year/Release Date
 - Director/Creator/Band Members
 - Streaming Platform
 - Last Watched Date
 - Rewatch Value
+- Duration/Runtime
 
 ## 📦 Requirements
 

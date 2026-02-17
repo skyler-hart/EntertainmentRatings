@@ -30,24 +30,49 @@ Looking at Tay's preferences in the uploaded data:
 - Are there any patterns in their rating preferences?
 ```
 
+**For Landen:**
+```
+Analyze Landen's ratings and favorites to:
+- Identify their preferred genres and rating patterns
+- Recommend 3 movies, 2 TV shows, and 2 music artists
+- Consider both their individual ratings and favorites
+```
+
+**For Hanna:**
+```
+Based on Hanna's preferences in the data:
+- What types of content do they rate highest?
+- Recommend recent releases (post-2015) they might enjoy
+- Focus on items marked as their favorites for similar recommendations
+```
+
 ### For Shared Recommendations
 
-**Date Night:**
+**Group Movie Night:**
 ```
-Based on both Sky and Tay's ratings, suggest movies that:
-- Both rated 8.0 or higher
-- Match genres they both enjoy
-- Would make great viewing together
+Based on all four people's ratings (Sky, Tay, Landen, Hanna), suggest movies that:
+- Everyone rated 7.5 or higher
+- Match genres that most people enjoy
+- Would make great group viewing
 
-Please explain why each recommendation fits both preferences.
+Please explain why each recommendation works for the group.
 ```
 
 **Discover Together:**
 ```
-Find common ground between Sky and Tay:
-- Which genres do they both enjoy?
-- What items did they both rate highly?
+Find common ground among all four people:
+- Which genres do they all enjoy?
+- What items did most people rate highly?
 - Recommend new content that matches their shared interests
+- Identify the "consensus favorites" that multiple people marked as TRUE
+```
+
+**Couple Recommendations:**
+```
+For Sky and Tay specifically, or Landen and Hanna:
+- Find movies both people rated 8.0+
+- Suggest content based on overlapping favorites
+- Consider their combined genre preferences
 ```
 
 ### For Analysis

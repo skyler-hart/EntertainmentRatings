@@ -23,17 +23,18 @@
 ## Data Schema
 
 ```
-Type, Title, Genre, Sky_Rating, Tay_Rating, Sky_Favorite, Tay_Favorite, Notes
+Type, Title, Genre, Sky_Rating, Tay_Rating, Sky_Favorite, Tay_Favorite, Landen_Rating, Landen_Favorite, Hanna_Rating, Hanna_Favorite, Release_Year, Notes
 ```
 
 - **Type**: Movie | TV Show | Music Artist
 - **Ratings**: 0-10 scale
 - **Favorites**: TRUE | FALSE (carries extra weight)
+- **Release_Year**: Year released/premiered/debuted
 
 ## Sample Entry
 
 ```csv
-Movie,Inception,Sci-Fi,9.0,8.5,TRUE,FALSE,Mind-bending thriller
+Movie,Inception,Sci-Fi,9.0,8.5,TRUE,FALSE,8.0,FALSE,9.0,TRUE,2010,Mind-bending thriller
 ```
 
 ## Most Common Tasks
@@ -41,7 +42,7 @@ Movie,Inception,Sci-Fi,9.0,8.5,TRUE,FALSE,Mind-bending thriller
 ### Add New Entry (CSV)
 Open `entertainment_ratings.csv` and add a new line:
 ```csv
-Movie,New Movie,Action,8.5,9.0,FALSE,TRUE,Great action scenes
+Movie,New Movie,Action,8.5,9.0,FALSE,TRUE,8.0,FALSE,9.5,TRUE,2024,Great action scenes
 ```
 
 ### Regenerate XLSX

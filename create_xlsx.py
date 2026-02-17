@@ -31,14 +31,14 @@ def create_xlsx_from_csv(csv_file, xlsx_file):
                     cell.alignment = Alignment(horizontal="center", vertical="center")
                 
                 # Format favorite columns
-                elif col_idx in [6, 7]:  # Sky_Favorite and Tay_Favorite columns
+                elif col_idx in [6, 7, 9, 11]:  # All Favorite columns
                     if value == "TRUE":
                         cell.fill = PatternFill(start_color="FFD966", end_color="FFD966", fill_type="solid")
                         cell.font = Font(bold=True)
                     cell.alignment = Alignment(horizontal="center")
                 
                 # Format rating columns
-                elif col_idx in [4, 5]:  # Sky_Rating and Tay_Rating columns
+                elif col_idx in [4, 5, 8, 10]:  # All Rating columns
                     cell.alignment = Alignment(horizontal="center")
                     try:
                         rating = float(value)
@@ -46,6 +46,10 @@ def create_xlsx_from_csv(csv_file, xlsx_file):
                             cell.fill = PatternFill(start_color="C6E0B4", end_color="C6E0B4", fill_type="solid")
                     except ValueError:
                         pass
+                
+                # Format Release_Year column
+                elif col_idx == 12:  # Release_Year column
+                    cell.alignment = Alignment(horizontal="center")
                 
                 # Add borders
                 thin_border = Border(
@@ -65,7 +69,12 @@ def create_xlsx_from_csv(csv_file, xlsx_file):
         'E': 12,  # Tay_Rating
         'F': 14,  # Sky_Favorite
         'G': 14,  # Tay_Favorite
-        'H': 40,  # Notes
+        'H': 12,  # Landen_Rating
+        'I': 14,  # Landen_Favorite
+        'J': 12,  # Hanna_Rating
+        'K': 14,  # Hanna_Favorite
+        'L': 12,  # Release_Year
+        'M': 40,  # Notes
     }
     
     for col, width in column_widths.items():

@@ -31,6 +31,18 @@ Looking at Tay's preferences in the uploaded data, recommend 5 new items
 recommendation fits based on their rating patterns and favorites.
 ```
 
+### For Landen:
+```
+Based on Landen's ratings and favorites in the data, what genres do they prefer most? 
+Recommend 3 movies, 2 TV shows, and 2 music artists that would match their taste.
+```
+
+### For Hanna:
+```
+Analyze Hanna's preferences and suggest content from recent years (2015+) that 
+would appeal to them based on their rating patterns and favorites.
+```
+
 ---
 
 ## Advanced Analysis Prompts
@@ -38,9 +50,10 @@ recommendation fits based on their rating patterns and favorites.
 ### Compatibility Analysis:
 ```
 Analyze the uploaded entertainment ratings and tell me:
-1. What do Sky and Tay have in common in their taste?
+1. What do all four people (Sky, Tay, Landen, Hanna) have in common?
 2. Where do their preferences differ the most?
-3. Recommend 3 items they could enjoy together (both would rate 8.5+)
+3. Recommend 3 items everyone could enjoy together (all would rate 8.0+)
+4. Which two people have the most similar taste?
 ```
 
 ### Genre Preferences:
@@ -48,6 +61,9 @@ Analyze the uploaded entertainment ratings and tell me:
 Based on the uploaded ratings:
 - What are Sky's top 3 genres across all categories?
 - What are Tay's top 3 genres?
+- What are Landen's top 3 genres?
+- What are Hanna's top 3 genres?
+- Which genres are universally popular among all four?
 - For each person, suggest one item from an underexplored genre they might enjoy
 ```
 
@@ -55,27 +71,32 @@ Based on the uploaded ratings:
 ```
 Act as a personalized recommendation engine. Using the uploaded data:
 
-For Sky:
+For each person (Sky, Tay, Landen, Hanna):
 1. Identify the key characteristics of their favorites
 2. Find patterns in their high-rated items
-3. Recommend 5 NEW items (not in the list) with detailed reasoning
+3. Recommend 3 NEW items (not in the list) with detailed reasoning
 
-For Tay:
-Do the same analysis and provide 5 recommendations
-
-Consider genre, themes, style, and the favorite flags for extra weight.
+Consider genre, themes, style, release year preferences, and the favorite flags for extra weight.
 ```
 
 ---
 
 ## Specific Scenario Prompts
 
-### Movie Night:
+### Group Movie Night:
 ```
-It's movie night! Based on both Sky and Tay's ratings, suggest:
-- 3 movies they'd both enjoy (consider favorites and ratings 8+)
+It's movie night for all four people! Based on everyone's ratings, suggest:
+- 3 movies that would satisfy the group (consider favorites and ratings 7.5+)
+- For each, explain why the group would like it
+- Order them from most to least likely to satisfy everyone
+```
+
+### Couples Night:
+```
+For a couples night (Sky & Tay, or Landen & Hanna), suggest:
+- 3 movies both people would enjoy (ratings 8+)
 - For each, explain why both would like it
-- Order them from most to least likely to satisfy both
+- Consider their shared favorites and genres
 ```
 
 ### Discovery Mode:
@@ -83,11 +104,14 @@ It's movie night! Based on both Sky and Tay's ratings, suggest:
 Based on this data, what new content should each person try that's 
 outside their comfort zone but still likely to be enjoyed?
 
-For each suggestion, explain:
-- Why it's a stretch (different from usual preferences)
-- Why they'd still likely enjoy it (subtle connections to favorites)
-```
-
+For each person (Sky, Tay, Landen, Hanna):
+- Suggest one stretch recommendation (different from usual preferences)
+- Explain why they'd still likely enjoy it (subtle connections to favorites)
+- Consider recent releases (2020+) they might have missed
+```  
+- One recent release for Landen to check out
+- One music artist Hanna should explore
+- One item all four would enjoy
 ### Quick Picks:
 ```
 I need quick recommendations:
