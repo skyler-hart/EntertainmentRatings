@@ -23,18 +23,21 @@
 ## Data Schema
 
 ```
-Type, Title, Genre, Sky_Rating, Tay_Rating, Sky_Favorite, Tay_Favorite, Landen_Rating, Landen_Favorite, Hanna_Rating, Hanna_Favorite, Release_Year, Notes
+Type, Title, Genre, Where_To_Watch, Sky_Rating, Sky_Favorite, Tay_Rating, Tay_Favorite, Landen_Rating, Landen_Favorite, Hanna_Rating, Hanna_Favorite, Release_Year, End_Year, Next_Release, Notes
 ```
 
 - **Type**: Movie | TV Show | Music Artist
+- **Where_To_Watch**: Netflix | Hulu | Prime Video | Disney+ | etc.
 - **Ratings**: 0-10 scale
 - **Favorites**: TRUE | FALSE (carries extra weight)
 - **Release_Year**: Year released/premiered/debuted
+- **End_Year**: TV show end year (blank if ongoing)
+- **Next_Release**: Upcoming season/release date or year
 
 ## Sample Entry
 
 ```csv
-Movie,Inception,Sci-Fi,9.0,8.5,TRUE,FALSE,8.0,FALSE,9.0,TRUE,2010,Mind-bending thriller
+TV Show,Wednesday,Fantasy,Netflix,9.7,TRUE,9.7,TRUE,,,,,2022,,1-Oct-26,
 ```
 
 ## Most Common Tasks
@@ -42,7 +45,7 @@ Movie,Inception,Sci-Fi,9.0,8.5,TRUE,FALSE,8.0,FALSE,9.0,TRUE,2010,Mind-bending t
 ### Add New Entry (CSV)
 Open `entertainment_ratings.csv` and add a new line:
 ```csv
-Movie,New Movie,Action,8.5,9.0,FALSE,TRUE,8.0,FALSE,9.5,TRUE,2024,Great action scenes
+TV Show,New Show,Drama,Netflix,8.5,FALSE,9.0,TRUE,8.0,FALSE,9.5,TRUE,2024,,2025,Great new series
 ```
 
 ### Regenerate XLSX

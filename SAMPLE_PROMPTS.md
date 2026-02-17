@@ -56,6 +56,41 @@ Analyze the uploaded entertainment ratings and tell me:
 4. Which two people have the most similar taste?
 ```
 
+### Platform-Specific Recommendations:
+```
+Based on the uploaded data:
+- What are the highest-rated shows on Netflix for each person?
+- Which streaming platform has the most content that Sky and Tay both enjoy?
+- Recommend new shows on Prime Video based on Landen's preferences
+- What shows are getting new seasons in 2025-2026 that Hanna would enjoy?
+```
+
+### Recent Favorites Analysis:
+```
+Based on the newest entries in the data (Paradise, Wednesday, Upload, etc.):
+- What patterns do you see in Sky and Tay's recent viewing preferences?
+- Which of the latest shows have the highest ratings?
+- What genres are trending in their recent favorites?
+- Based on shows ending in 2025 (like Upload), what should they watch next?
+```
+```
+Based on the uploaded data:
+- What are the highest-rated shows on Netflix for each person?
+- Which streaming platform has the most content that Sky and Tay both enjoy?
+- Recommend new shows on Prime Video based on Landen's preferences
+- What shows are getting new seasons in 2025-2026 that Hanna would enjoy?
+```
+
+### Timeline Analysis:
+```
+Using the release years and show schedules in the data:
+- What decade has the most highly-rated content for each person?
+- Which ongoing shows (no End_Year) should each person catch up on?
+- What shows that ended recently (2020+) might each person have missed?
+- Based on Next_Release dates, what should everyone be excited about?
+- Which shows have specific release dates coming up (like Wednesday's "1-Oct-26")?
+```
+
 ### Genre Preferences:
 ```
 Based on the uploaded ratings:

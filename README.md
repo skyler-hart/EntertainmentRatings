@@ -34,6 +34,8 @@ The spreadsheet contains the following columns:
    - "Suggest music artists similar to Landen's favorites"
    - "Find movies that all four people would enjoy watching together (rated 8+ by everyone)"
    - "What movies from the 2010s would Hanna enjoy based on their rating patterns?"
+   - "Show me highly-rated shows on Netflix that are still running"
+   - "What shows are getting new seasons in 2026?"
 
 ### Understanding the Weighting System
 
@@ -49,8 +51,9 @@ The spreadsheet contains the following columns:
 Add new rows to `entertainment_ratings.csv` following this format:
 
 ```csv
-Type,Title,Genre,Sky_Rating,Tay_Rating,Sky_Favorite,Tay_Favorite,Landen_Rating,Landen_Favorite,Hanna_Rating,Hanna_Favorite,Release_Year,Notes
-Movie,Your Movie,Action,8.5,9.0,FALSE,TRUE,8.0,FALSE,9.5,TRUE,2023,Your notes here
+Type,Title,Genre,Where_To_Watch,Sky_Rating,Sky_Favorite,Tay_Rating,Tay_Favorite,Landen_Rating,Landen_Favorite,Hanna_Rating,Hanna_Favorite,Release_Year,End_Year,Next_Release,Notes
+Movie,Your Movie,Action,Netflix,8.5,FALSE,9.0,TRUE,8.0,FALSE,9.5,TRUE,2023,,,Your notes here
+TV Show,Your Show,Drama,Hulu,9.0,TRUE,8.5,FALSE,9.2,TRUE,8.8,FALSE,2022,,2025,Your show description
 ```
 
 ### Using Excel
@@ -117,10 +120,10 @@ pip install openpyxl
 
 ## 🎬 Sample Data
 
-The repository includes 30 sample entries:
-- 10 Movies (including classics like The Shawshank Redemption, Inception, The Matrix)
-- 10 TV Shows (Breaking Bad, Game of Thrones, Stranger Things, etc.)
-- 10 Music Artists (The Beatles, Queen, Billie Eilish, etc.)
+The repository includes 32 sample entries:
+- 7 Movies (including classics like The Matrix, Inception, Interstellar)
+- 23 TV Shows (Breaking Bad to Wednesday, Fallout to Paradise)
+- 2 Music Artists (Taylor Swift, Billie Eilish)
 
 These samples demonstrate the rating system and can be replaced with your actual preferences.
 

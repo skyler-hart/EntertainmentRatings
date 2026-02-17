@@ -75,6 +75,24 @@ For Sky and Tay specifically, or Landen and Hanna:
 - Consider their combined genre preferences
 ```
 
+**Platform-Based Recommendations:**
+```
+Based on the streaming platforms in the uploaded data:
+- What are Sky's highest-rated shows on each platform?
+- Which platform offers the most content that both Tay and Landen would enjoy?
+- Recommend shows on Disney+ that match Hanna's preferences
+- Show me highly-rated content that's easily accessible (on major platforms)
+```
+
+**Timeline-Based Analysis:**
+```
+Using the timeline data in the file:
+- What shows are getting new seasons soon that each person should be excited about?
+- Which recently ended shows (2020+) might each person have missed?
+- Find ongoing shows (no end date) that match each person's taste
+- What's the best decade for each person's entertainment preferences?
+```
+
 ### For Analysis
 
 **Rating Analysis:**

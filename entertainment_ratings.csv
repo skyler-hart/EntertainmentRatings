@@ -1,31 +1,34 @@
-Type,Title,Genre,Sky_Rating,Tay_Rating,Sky_Favorite,Tay_Favorite,Landen_Rating,Landen_Favorite,Hanna_Rating,Hanna_Favorite,Release_Year,Notes
-Movie,The Shawshank Redemption,Drama,9.5,9.0,TRUE,TRUE,,,,,1994,Classic redemption story
-Movie,Inception,Sci-Fi,9.0,8.5,TRUE,FALSE,,,,,2010,Mind-bending thriller
-Movie,The Dark Knight,Action,8.5,9.0,FALSE,TRUE,,,,,2008,Great superhero film
-Movie,Pulp Fiction,Crime,8.0,7.5,FALSE,FALSE,,,,,1994,Tarantino classic
-Movie,Forrest Gump,Drama,9.0,9.5,FALSE,TRUE,,,,,1994,Heartwarming story
-Movie,The Matrix,Sci-Fi,9.5,8.0,TRUE,FALSE,,,,,1999,Revolutionary effects
-Movie,Interstellar,Sci-Fi,9.0,8.0,FALSE,FALSE,,,,,2014,Space exploration epic
-Movie,The Godfather,Crime,8.5,8.5,FALSE,FALSE,,,,,1972,Mafia masterpiece
-Movie,Spirited Away,Animation,8.0,9.0,FALSE,TRUE,,,,,2001,Beautiful animation
-Movie,Parasite,Thriller,8.5,9.0,FALSE,FALSE,,,,,2019,Social commentary
-TV Show,Breaking Bad,Drama,9.5,9.0,TRUE,TRUE,,,,,2008,Intense character development
-TV Show,Game of Thrones,Fantasy,8.5,9.5,FALSE,TRUE,,,,,2011,Epic fantasy series
-TV Show,Stranger Things,Sci-Fi,9.0,9.0,TRUE,TRUE,,,,,2016,80s nostalgia
-TV Show,The Office,Comedy,9.0,8.5,TRUE,FALSE,,,,,2005,Hilarious workplace comedy
-TV Show,Friends,Comedy,8.0,9.0,FALSE,TRUE,,,,,1994,Classic sitcom
-TV Show,Black Mirror,Sci-Fi,8.5,8.0,FALSE,FALSE,,,,,2011,Thought-provoking anthology
-TV Show,The Crown,Drama,7.5,8.5,FALSE,FALSE,,,,,2016,Historical drama
-TV Show,Sherlock,Mystery,9.0,8.5,TRUE,FALSE,,,,,2010,Modern detective series
-TV Show,The Mandalorian,Sci-Fi,8.5,9.0,FALSE,TRUE,,,,,2019,Star Wars adventure
-TV Show,Westworld,Sci-Fi,8.0,7.5,FALSE,FALSE,,,,,2016,Complex AI narrative
-Music Artist,The Beatles,Rock,9.5,9.0,TRUE,TRUE,,,,,1960,Legendary band
-Music Artist,Queen,Rock,9.0,9.5,FALSE,TRUE,,,,,1970,Iconic performances
-Music Artist,Taylor Swift,Pop,7.5,9.5,FALSE,TRUE,,,,,2006,Modern pop icon
-Music Artist,Billie Eilish,Pop,8.5,9.0,TRUE,TRUE,,,,,2015,Unique sound
-Music Artist,Radiohead,Alternative,9.0,8.0,TRUE,FALSE,,,,,1985,Experimental rock
-Music Artist,Daft Punk,Electronic,8.5,8.5,FALSE,FALSE,,,,,1993,Electronic pioneers
-Music Artist,Kendrick Lamar,Hip-Hop,8.0,9.0,FALSE,TRUE,,,,,2009,Lyrical genius
-Music Artist,Pink Floyd,Rock,9.5,8.5,TRUE,FALSE,,,,,1965,Progressive rock legends
-Music Artist,Adele,Pop,8.5,9.0,FALSE,TRUE,,,,,2008,Powerful vocals
-Music Artist,Arctic Monkeys,Indie,8.0,8.0,FALSE,FALSE,,,,,2002,British indie rock
+Type,Title,Genre,Where_To_Watch,Sky_Rating,Sky_Favorite,Tay_Rating,Tay_Favorite,Landen_Rating,Landen_Favorite,Hanna_Rating,Hanna_Favorite,Release_Year,End_Year,Next_Release,Notes
+Movie,Inception,Sci-Fi,,9,TRUE,,,,,,,2010,,,Mind-bending thriller
+Movie,The Dark Knight,Action,,7,FALSE,,,,,,,2008,,,Great superhero film
+Movie,Forrest Gump,Drama,,7,FALSE,,,,,,,1994,,,Heartwarming story
+Movie,The Matrix,Sci-Fi,,9.5,FALSE,,,,,,,1999,,,Revolutionary effects
+Movie,Interstellar,Sci-Fi,,9,FALSE,,,,,,,2014,,,Space exploration epic
+TV Show,Game of Thrones,Fantasy,,,FALSE,9,FALSE,,,,,2011,,,Epic fantasy series
+TV Show,Vikings,Historical Drama,Prime Video,9,TRUE,10,TRUE,,,,,2013,2020,,Viking raids and culture
+TV Show,Black Mirror,Sci-Fi,,8.5,FALSE,,,,,,,2011,,,Thought-provoking anthology
+Music Artist,Taylor Swift,Pop,,6,FALSE,4,FALSE,,,,,2006,,,Modern pop icon
+Music Artist,Billie Eilish,Pop,,6,FALSE,8,FALSE,,,,,2015,,,Unique sound
+Movie,The Gorge,Thriller,Prime Video,9,TRUE,9,TRUE,,,,,2024,,,Survival thriller
+TV Show,Ghosts (US),Comedy,Paramount+,9.2,TRUE,9.8,TRUE,,,,,2021,,26-Feb-26,Ghosts helping living couple
+TV Show,Bridgerton,Period Romance,Netflix,9,TRUE,9.8,TRUE,,,,,2020,,26-Feb-26,Regency era romance
+TV Show,Ginny and Georgia,Drama,Netflix,7,FALSE,9.3,TRUE,,,,,2021,2027,2027,Mother-daughter relationship drama
+TV Show,The Great,Historical Comedy,Hulu,9,TRUE,9.2,TRUE,,,,,2020,2023,,Satirical Catherine the Great
+Movie,A minecraft movie,Adventure,Theaters,9,FALSE,8,FALSE,,,,,2025,,,Video game adaptation
+TV Show,Moon Knight,Superhero,Disney+,9.4,TRUE,9.3,TRUE,,,,,2022,2022,,Marvel superhero with DID
+TV Show,Fallout,Post-Apocalyptic,Prime Video,9.8,TRUE,9.8,TRUE,,,,,2024,,2025,Post-nuclear survival
+TV Show,Hijack,Thriller,Apple TV+,9.1,TRUE,,,,,,,2023,2023,,Airplane hijacking thriller
+Movie,Ready or Not,Horror Comedy,Hulu,,,9.1,TRUE,,,,,2019,,,
+TV Show,Schitts Creek,Comedy,Hulu,9.3,TRUE,9.7,TRUE,,,,,2015,2020,,Wealthy family loses fortune
+TV Show,Tracker,Action Drama,Paramount+,9.5,TRUE,,,,,,,2024,,2025,Survival expert solves cases
+TV Show,The Orville,Sci-Fi Comedy,Hulu,9.6,TRUE,9.7,TRUE,,,,,2017,2022,,Star Trek-inspired space comedy
+TV Show,Resident Alien,Sci-Fi Comedy,Peacock,9.8,TRUE,9.8,TRUE,,,,,2021,,2025,Alien stranded in small town
+TV Show,Leverage,Crime Drama,Prime Video,9.9,TRUE,,,,,,,2008,2012,,Team of thieves help victims
+TV Show,Yellowstone,Western Drama,Paramount+,9.8,TRUE,9.8,TRUE,,,,,2018,2022,,Montana ranch family saga
+TV Show,Another Period,Period Comedy,Paramount+,9.8,TRUE,9.8,TRUE,,,,,2015,2018,,Gilded Age satire
+TV Show,Murderbot,Sci-Fi,Apple TV+,9.9,TRUE,,,,,,,2024,,2025,AI security android adventures
+TV Show,Pluribus,Political Drama,Apple TV+,9.7,TRUE,,,,,,,2024,,2025,Political conspiracy thriller
+TV Show,Paradise,,Hulu,9.7,TRUE,9.7,TRUE,,,,,2025,,2026,
+TV Show,Wednesday,Fantasy,Netflix,9.7,TRUE,9.7,TRUE,,,,,2022,,1-Oct-26,
+TV Show,Upload,,Prime Video,9.8,TRUE,9.8,TRUE,,,,,2020,2025,,
+TV Show,Santa Clarita Diet,,Netflix,9.5,TRUE,9.5,TRUE,,,,,2017,2019,,

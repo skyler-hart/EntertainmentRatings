@@ -31,14 +31,14 @@ def create_xlsx_from_csv(csv_file, xlsx_file):
                     cell.alignment = Alignment(horizontal="center", vertical="center")
                 
                 # Format favorite columns
-                elif col_idx in [6, 7, 9, 11]:  # All Favorite columns
+                elif col_idx in [6, 8, 10, 12]:  # All Favorite columns
                     if value == "TRUE":
                         cell.fill = PatternFill(start_color="FFD966", end_color="FFD966", fill_type="solid")
                         cell.font = Font(bold=True)
                     cell.alignment = Alignment(horizontal="center")
                 
                 # Format rating columns
-                elif col_idx in [4, 5, 8, 10]:  # All Rating columns
+                elif col_idx in [5, 7, 9, 11]:  # All Rating columns
                     cell.alignment = Alignment(horizontal="center")
                     try:
                         rating = float(value)
@@ -47,8 +47,8 @@ def create_xlsx_from_csv(csv_file, xlsx_file):
                     except ValueError:
                         pass
                 
-                # Format Release_Year column
-                elif col_idx == 12:  # Release_Year column
+                # Format year columns
+                elif col_idx in [13, 14, 15]:  # Release_Year, End_Year, Next_Release columns
                     cell.alignment = Alignment(horizontal="center")
                 
                 # Add borders
@@ -63,18 +63,21 @@ def create_xlsx_from_csv(csv_file, xlsx_file):
     # Adjust column widths
     column_widths = {
         'A': 12,  # Type
-        'B': 30,  # Title
-        'C': 15,  # Genre
-        'D': 12,  # Sky_Rating
-        'E': 12,  # Tay_Rating
-        'F': 14,  # Sky_Favorite
-        'G': 14,  # Tay_Favorite
-        'H': 12,  # Landen_Rating
-        'I': 14,  # Landen_Favorite
-        'J': 12,  # Hanna_Rating
-        'K': 14,  # Hanna_Favorite
-        'L': 12,  # Release_Year
-        'M': 40,  # Notes
+        'B': 25,  # Title
+        'C': 18,  # Genre
+        'D': 15,  # Where_To_Watch
+        'E': 10,  # Sky_Rating
+        'F': 12,  # Sky_Favorite
+        'G': 10,  # Tay_Rating
+        'H': 12,  # Tay_Favorite
+        'I': 10,  # Landen_Rating
+        'J': 12,  # Landen_Favorite
+        'K': 10,  # Hanna_Rating
+        'L': 12,  # Hanna_Favorite
+        'M': 12,  # Release_Year
+        'N': 10,  # End_Year
+        'O': 14,  # Next_Release
+        'P': 35,  # Notes
     }
     
     for col, width in column_widths.items():
